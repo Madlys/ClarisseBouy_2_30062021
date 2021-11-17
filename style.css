@@ -193,9 +193,10 @@ i.fa-search/*bouton rechercher avec icon*/
 {
 	display: flex;/*dispositon flexbox*/
 	flex-direction: row;/*éléments à la suite sur une même ligne*/
+	flex-wrap: wrap;/*éléments passent à la ligne lorsque plus de place*/
 }
 
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog /*icones*/
 {
 	color: #0065FC;/*couleur*/
 	border: 0.1rem solid #DEEBFF;/*contour bleu clair*/
@@ -299,7 +300,7 @@ i.fa-search/*bouton rechercher avec icon*/
 {
 	font-size: 0.8rem;/*taille icone*/
 	color: #0065FC;
-	margin-right: 0.8%;/*marge ext droite (entre icon info et texte)*/
+	margin-right: 7px;/*marge ext droite (entre icon info et texte)*/
 	padding: 0.3rem 0.5rem 0.3rem 0.5rem;/*marge int (entre icon info et bordure)*/
 	border: 0.1rem solid #F2F2F2;/*bordure grise*/
 	border-radius: 90%;/*angles bordure arrondis à 90%*/
@@ -309,7 +310,7 @@ i.fa-search/*bouton rechercher avec icon*/
 {
 	display: flex;/*disposition flexbox*/
 	flex-direction: row;/*éléments à la suite sur une même ligne*/
-	align-items: center;/*éléments centrés sur l'axe verticale*/
+	align-items: baseline;/*éléments centrés sur l'axe verticale*/
 	margin: 2.1rem 0 2.3rem 3.8%;/*marge ext*/
 	height: 1.5rem;/*hauteur*/
 }
