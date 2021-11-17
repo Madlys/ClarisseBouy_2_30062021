@@ -25,195 +25,106 @@ body
 	border: solid;
 }
 
-
-------------------------Barre de recherche ---------------------------*/
-
-	.vacancesdereve/*titre barre de recherche*/
+	.reservia/*logo (image)*/
 	{
-		margin-left: 6%;/*marge ext gauche du bloc*/
-		line-height: 0.7rem;/*espace entre les lignes de texte*/
-	}
-
-	.barrederecherche
-	{	
-		margin-left: 6%;/*marge ext gauche (entre barre de recherche et bord de la page)*/
-		margin-top: 1.5rem;/*marge ext haute (entre barre de recherche et titre)*/
+		margin-left: 30px;
 	}
 
 
 
 	/*-----------------------------------Filtres---------------------------------*/
 
-	.blocfiltre/*bloc filtres*/
-	{
-		flex-direction: column;/*éléments à la suite en colonne*/
-	}
-
-	.titreblocfiltres
-	{
-		margin-top: 3rem;/*marge ext haute*/
-	}
-
 	.filtres/*filtres sans titre général*/
 	{
-		width: 80%;/*largeur*/
-		margin: 0 0 0 4%;/*marge ext*/
+		flex-wrap: wrap;
 	}
-
-	.infotexte/*icon info + texte*/
-	{
-		margin-left: 5.5%;/*marge ext gauche*/
-	}
-
 
 	/*--------------------------------Hébergements----------------------------------*/
 
 	.hebergements/*bloc section hébergements (titre + cartes + afficherplus)*/
 	{
-		width: 58%;/*largeur*/
-		height: 53.5rem;/*hauteur*/
-	}
-
-	#titrehebergements/*titre*/
-	{
-		margin-left: 7%;/*marge ext gauche (entre bord section et titre)*/
+		height: 54rem;/*hauteur*/
 	}
 
 	.carteshebergements/*bloc cartes*/
 	{
-		width: 90%;/*largeur bloc*/
+		grid-gap: 1rem 0;/*espace entre cartes*/
 	}
 
 	.cartes/*cartes (photo + description)*/
 	{
 		width: 47%;/*largeur carte*/
-		height: 12.4rem;/*hauteur carte*/
+		height: 13rem;/*hauteur carte*/
 	}
 
-	.description/*bloc description de l'hébegement*/
+	.note
 	{
-		width: 97%;
-		margin-left: 6.5%;/*marges ext gauche*/
+		margin: 0.7rem 0 1rem 0.7rem;
 	}
+
+	#afficherplus
+	{
+		margin-top: 275px;	
+	}
+
 
 	/*-----------------------------------Populaires----------------------------------*/
 
 	.populaires/*bloc gris section populaires (titre + cartes)*/
 	{
-		width: 37%;/*largeur*/
-		height: 53.5rem;/*hauteur*/
+		height: 54rem;/*hauteur*/
 	}
 
-	#cartespopulaires/*bloc cartes*/
+	#titrepopulaire/*bloc titre + icône*/
 	{
-		width: 81%;/*largeur*/
-		height: 45rem;/*hauteur*/
-		margin-left: 10%;/*marge ext gauche*/
-	}
-
-	.cartes2/*cartes blanches populaires (photo + desciption + note)*/
-	{
-		height: 50rem;/*hauteur cartes*/
+		margin-top: 1.8rem;
 	}
 
 	.photos2/*photos populaires*/
 	{
-		width: 97%;/*largeur photos*/
-		height: 8rem;/*hauteur photo*/
+		width: 95%;/*largeur photos*/
+		height: 7rem;
 		float: none;/*photo suit la dispo flexbox*/
 		border-radius: 0.9rem 0.9rem 0 0;/*coins gauches arrondis*/
+		margin-bottom: 0;
 	}
 
 	.sansphoto/*description + note*/
 	{
-		margin-top: 0.5rem;/*marge ext haute*/
+		height: 40%;
+		background-color: darkred;
 	}
 
 	.description2/*description photos*/
 	{
-		height: 1rem;/*none*/
-		width: 90%;/*largeur*/
-		margin-left: 5%;/*marge ext gauche (entre photo et description)*/
+		height: 40%;
+		background-color: palevioletred;
 	}
 
-	.description2 h3/*texte description photo lieu*/
+	.description2 p
 	{
-		margin-bottom: -0.8rem;/*marge ext bas (entre lieu et prix)*/
+		background-color: skyblue;
 	}
 
 	.note2/*bloc note étoiles*/
 	{
-		margin-top: 3rem;/*marge ext haute (entre note et description)*/
-		margin-bottom: 0.8rem;/*marge ext bas*/
-		margin-left: 5%;/*marge ext gauche*/
+		margin-top: 2rem;
 	}
-
-
 
 	/*----------------------Hébergements et Populaires------------------------------*/
 
 	.toushebergements/*bloc section hebergements et populaires*/
 	{
-		width: 140%;/*largeur*/
-		margin-left: 5.5%;/*marge ext gauche*/
-		margin-bottom: 18rem;/*marge ext basse entre bloc et activités*/
+		height: 53.5rem;/*hauteur*/
 	}
-
 
 
 	/*----------------------------------------Activités-----------------------------------------------*/
 
-	.titreactivites/*titre section activités*/
-	{
-		margin-left: 5.6%;/*marge ext gauche*/
-	}
-
-	.cartesactivités/*bloc cartes*/
-	{
-		flex-wrap: wrap;/*carte passe à la ligne lorsqu'il n'y a plus de place*/
-		width: 140%;/*largeur*/
-		height: 57rem;/*hauteur*/
-		row-gap: 1rem;/*espace entre cartes*/
-		margin: 0 0.7% 0 5.7%;/*marge ext*/
-	}
-
-	#cartepomegues, #cartefrioul, #cartenotredame, #cartelongchamp
-	{
-		height: 27.9rem;/*hauteur*/
-	}
-
-	.souscarte/*sous bloc carte (pomègues+Frioul et notre-dame+Longchamp)*/
-	{
-		width: 71%;/*largeur bloc*/
-		flex-direction: row;/*en colonne*/
-		margin-top: 0;/*ajustement visuel*/
-		margin-right: -22%;/*marge ext droite*/
-		margin-left: 5%;
-		grid-gap: 1rem;/*ajustement visuel*/
-	}
-
-	#cartefrioul, #cartelongchamp
-	{
-		margin-left: 0;/*ajustement visuel*/
-	}
-
-	.grandescartes/*carte vieux port + carte calanques*/
-	{
-		margin-right: -3%;/*ajustement visuel*/
-	}
-
-	#photopomegues, #photofrioul, #photonotredame, #photolongchamp
-	{
-		height: 24.4rem;/*hauteur*/
-	}
 
 
 
-	/*----------------------------------------Pied de Page-----------------------------------------------*/
 
-	footer
-	{
-		width: 152%;/*largeur*/
-	}
+	
 	
 }

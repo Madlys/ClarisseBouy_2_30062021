@@ -111,7 +111,6 @@ header
 	color: #0065FC;/*texte en bleu*/
 }
 
-
 #sinscrire
 {
 	margin-left: 2rem;
@@ -434,14 +433,14 @@ i.fa-search/*bouton rechercher avec icon*/
 	align-items: center;/*élément alignés au centre sur l'axe horizontal*/
 	justify-content: space-evenly;/*éléments espacés equitablement*/
 	width: 80%;/*largeur*/
-	height: 31.1rem;/*hauteur*/
+	height: 80%;/*hauteur*/
 	margin: 1.6rem 10% 2.1rem 10%;/*marges ext*/
 }
 
 .cartes2/*cartes blanches populaires (photo + desciption + note)*/
 {
 	width: 100%;/*largeur cartes*/
-	height: 9rem;/*hauteur cartes*/
+	height: 30%;/*hauteur cartes*/
 	border-radius: 1.3rem;/*coins arrondis*/
 	background-color: white;/*couleur de fond*/
 	box-shadow: 0 0.1rem 0.6rem #DCDCDC;/*ombre*/
@@ -524,7 +523,7 @@ i.fa-search/*bouton rechercher avec icon*/
 .cartesactivités/*bloc cartes*/
 {
 	border: solid;
-	width: 93%;/*largeur*/
+	width: 100%;/*largeur*/
 	height: 28.5rem;/*hauteur*/
 	display: flex;/*disposition flexbox*/
 	flex-direction: row;/*éléments à la suite sur une ligne*/
