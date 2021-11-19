@@ -523,13 +523,10 @@ i.fa-search/*bouton rechercher avec icon*/
 
 .cartesactivités/*bloc cartes*/
 {
-	background-color: palegreen;
-	width: 92%;/*largeur*/
-	height: 26.8rem;/*hauteur*/
-	margin: 0 3.3% 0 3.3%;
+	width: 95%;/*largeur*/
+	margin-left: 1%;
 	display: flex;/*disposition flexbox*/
 	flex-direction: row;/*éléments à la suite sur une ligne*/
-	align-items: center;
 }
 
 .grandescartes, #cartepomegues, #cartefrioul, #cartenotredame, #cartelongchamp
@@ -539,9 +536,7 @@ i.fa-search/*bouton rechercher avec icon*/
 
 .souscarte/*sous bloc carte (pomègues+Frioul et notre-dame+Longchamp)*/
 {
-	background-color: palevioletred;
 	width: 23%;
-	height: 26.8rem;/*hauteur bloc*/
 	display: flex;/*dispositon flexbox*/
 	flex-direction: column;/*en colonne*/
 	align-items: center;
@@ -574,7 +569,6 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartepomegues/*carte Fort de Pomègues (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 13rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
@@ -589,7 +583,6 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartefrioul/*carte Ile de Frioul (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 9.4rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
@@ -604,7 +597,6 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartenotredame/*carte Notre Dame (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 9.4rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
@@ -619,7 +611,6 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartelongchamp/*carte Parc Longchamps (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 13rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
