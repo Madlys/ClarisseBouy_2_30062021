@@ -523,12 +523,13 @@ i.fa-search/*bouton rechercher avec icon*/
 
 .cartesactivités/*bloc cartes*/
 {
-	border: solid;
-	width: 100%;/*largeur*/
-	height: 28.5rem;/*hauteur*/
+	background-color: palegreen;
+	width: 92%;/*largeur*/
+	height: 26.8rem;/*hauteur*/
+	margin: 0 3.3% 0 3.3%;
 	display: flex;/*disposition flexbox*/
 	flex-direction: row;/*éléments à la suite sur une ligne*/
-	justify-content: space-between;
+	align-items: center;
 }
 
 .grandescartes, #cartepomegues, #cartefrioul, #cartenotredame, #cartelongchamp
@@ -538,52 +539,49 @@ i.fa-search/*bouton rechercher avec icon*/
 
 .souscarte/*sous bloc carte (pomègues+Frioul et notre-dame+Longchamp)*/
 {
-	border: solid;
-	max-width: 20%;
-	margin: auto;
-	height: 28.5rem;/*hauteur bloc*/
+	background-color: palevioletred;
+	width: 23%;
+	height: 26.8rem;/*hauteur bloc*/
 	display: flex;/*dispositon flexbox*/
 	flex-direction: column;/*en colonne*/
-	align-items: center;/*éléments alignés sur l'axe horizontal*/
-	justify-content: space-between;
+	align-items: center;
 }
 
 .grandescartes/*carte vieux port + carte calanques*/
 {
-	border: solid red;
-	max-width: 20%;
-	margin: auto;
-	height: 28.5rem;/*hauteur*/
+	width: 23%;
+	height: 26.8rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
-	
 }
 
 .grandesphotos/*photo vieux port + photo calanques*/
 {
 	width: 100%;/*largeur*/
-	height: 24.4rem;/*hauteur*/
+	height: 22.8rem;/*hauteur*/
 	object-fit: cover;/*rognage photo dans cadre*/
 	border-radius: 1.3rem 1.3rem 0 0;/*coins supérieurs arrondis*/
 }
 
 .description3/*descriptions photos activités*/
 {
-	background-color: pink;
 	width: 100%;
-	margin: 1.4rem 0 1.3rem 5%;/*marge ext*/
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	line-height: 1rem;
 }
 
 #cartepomegues/*carte Fort de Pomègues (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 15rem;/*hauteur*/
+	height: 13rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
 #photopomegues/*photo Fort de Pomègues*/
 {
 	width: 100%;/*largeur*/
-	height: 11.5rem;/*hauteur*/
+	height: 11rem;/*hauteur*/
 	object-fit: cover;/*rognage photo dans cadre*/
 	border-radius: 1.3rem 1.3rem 0 0;/*coins supérieurs arrondis*/
 }
@@ -591,7 +589,7 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartefrioul/*carte Ile de Frioul (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 11rem;/*hauteur*/
+	height: 9.4rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
@@ -606,14 +604,14 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartenotredame/*carte Notre Dame (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 12.5rem;/*hauteur*/
+	height: 9.4rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
 #photonotredame/*photo Notre Dame*/
 {
 	width: 100%;/*largeur*/
-	height: 9rem;/*hauteur*/
+	height: 7.4rem;/*hauteur*/
 	object-fit: cover;/*rognage photo dans cadre*/
 	border-radius: 1.3rem 1.3rem 0 0;/*coins supérieurs arrondis*/
 }
@@ -621,14 +619,14 @@ i.fa-search/*bouton rechercher avec icon*/
 #cartelongchamp/*carte Parc Longchamps (photo + descptiption)*/
 {
 	width: 100%;/*largeur*/
-	height: 13.3rem;/*hauteur*/
+	height: 13rem;/*hauteur*/
 	border-radius: 1.3rem;/*coins arrondis*/
 }
 
 #photolongchamp/*photo Parc Longchamps*/
 {
 	width: 100%;/*largeur*/
-	height: 9.8rem;/*hauteur*/
+	height: 11rem;/*hauteur*/
 	object-fit: cover;/*rognage photo dans cadre*/
 	border-radius: 1.3rem 1.3rem 0 0;/*coins supérieurs arrondis*/
 }
