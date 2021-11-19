@@ -7,7 +7,6 @@
 body
 {
 	border: solid;
-	background-color: lightgreen;
 }
 
 	header
@@ -151,7 +150,6 @@ body
 
 	.carteshebergements/*bloc cartes*/
 	{
-		background-color: burlywood;
 		width: 85%;/*largeur bloc*/
 		height: 80%;/*hauteur bloc*/
 		margin: 1.4rem 6.6% 2rem 6.6%;/*marge ext*/
@@ -209,7 +207,6 @@ body
 
 	.toushebergements/*bloc section hebergements et populaires*/
 	{
-		background-color: papayawhip;
 		width: 100%;/*largeur*/
 		height: 123rem;/*hauteur*/
 		flex-direction: column-reverse;/*éléments à la suite sur colonne + ordre éléments inversé)*/
@@ -224,18 +221,21 @@ body
 	.titreactivites
 	{
 		width: 80%;
-		margin-bottom: 1.3rem;/*marge ext bas*/
-		margin-left: 4.5%;/*marge ext gauche*/
+		margin: 4.5rem 0 0 6.6%;
 	}
 
 	.cartesactivités/*bloc cartes*/
 	{
-		height: 78.4rem;/*hauteur*/
-		width: 100%;/*largeur*/
+		width: 86%;/*largeur*/
 		flex-direction: column;/*éléments à la suite sur une colonne*/
-		margin-top: 1.3rem;/*marge ext haute (entre haut bloc cartes et titre)*/
-		margin-left: 0;
+		margin-top: 1rem;/*marge ext haute (entre haut bloc cartes et titre)*/
+		margin-left: 6.6%;
 		grid-gap: 0.9rem;/*ajustement visuel*/
+	}
+
+	.grandescartes/*carte vieux port + carte calanques*/
+	{
+		margin-left: 0;
 	}
 
 	.souscarte/*sous bloc carte (pomègues+Frioul et notre-dame+Longchamp)*/
@@ -258,7 +258,7 @@ body
 
 	.description3/*descriptions photos activités*/
 	{
-		margin: 1.3rem 0 1.1rem 6%;/*marge ext*/
+		margin-left: 20px;
 	}
 
 

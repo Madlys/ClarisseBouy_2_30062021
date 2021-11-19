@@ -140,10 +140,51 @@ body
 
 	/*----------------------------------------Activités-----------------------------------------------*/
 
+	.titreactivites
+	{
+		width: 80%;
+		margin-bottom: 1.3rem;/*marge ext bas*/
+		margin-left: 4.5%;/*marge ext gauche*/
+	}
+
 	.cartesactivités/*bloc cartes*/
 	{
-
+		width: 93%;/*largeur*/
+		flex-direction: column;/*éléments à la suite sur une colonne*/
+		margin-top: 1.3rem;/*marge ext haute (entre haut bloc cartes et titre)*/
+		margin-left: 3.3%;
+		grid-gap: 0.9rem;/*ajustement visuel*/
 	}
+
+	.grandescartes/*carte vieux port + carte calanques*/
+	{
+		margin-left: 0;
+	}
+
+	.souscarte/*sous bloc carte (pomègues+Frioul et notre-dame+Longchamp)*/
+	{
+		width: 100%;/*largeur bloc*/
+		grid-gap: 0;/*ajustement visuel*/
+	}
+
+	.grandescartes, #cartepomegues, #cartefrioul, #cartenotredame, #cartelongchamp/*toutes les cartes*/
+	{
+		width: 100%;/*largeur*/
+		height: 11.9rem;/*hauteur*/
+	}
+
+	.grandesphotos, #photopomegues, #photofrioul, #photonotredame, #photolongchamp/*toutes les photos*/
+	{
+		width: 100%;
+		height: 8.4rem;/*hauteur*/
+	}
+
+	.description3/*descriptions photos activités*/
+	{
+		margin-left: 20px;
+	}
+
+
 
 
 	/*----------------------------------------Pied de Page-----------------------------------------------*/
