@@ -23,6 +23,7 @@ body
 	.menu/*"hébergements" et "activités"*/
 	{
 		width: 100%;/*largeur*/
+		margin-top: 0.7rem;
 		order: 3;
 	}
 
@@ -43,6 +44,7 @@ body
 
 	#sinscrire
 	{
+		margin-right: 35px;
 		order: 2;
 	}
 
@@ -50,7 +52,7 @@ body
 
 	.vacancesdereve/*titre barre de recherche*/
 	{
-		margin: 3.1rem 6.6% 0 6.6%;/*marges ext*/
+		margin: 1.3rem 6.6% 0 6.6%;/*marges ext*/
 		line-height: 1.5rem;/*espace entre les lignes*/
 	}
 
@@ -115,9 +117,14 @@ body
 	.filtres/*filtres sans titre général*/
 	{
 		width: 90%;/*largeur*/
-		height: 14rem;/*hauteur*/
+		height: auto;/*hauteur*/
 		margin: 0 6.6% 0 6.6%;/*marge ext*/
 		flex-wrap: wrap;/*élément va à la ligne lorsque plus de place*/
+	}
+
+	.filtre/*intitulés filtres + contour gris*/
+	{
+		margin-bottom: 0.7rem;
 	}
 
 
@@ -127,7 +134,7 @@ body
 	.infotexte/*icon info + texte*/
 	{
 		width: 90%;/*largeur*/
-		margin: 2.1rem 6.6% 2.3rem 6.6%;/*marge ext*/
+		margin: 0.5rem 6.6% 2.3rem 6.6%;/*marge ext*/
 	}
 
 
@@ -187,7 +194,6 @@ body
 	#cartespopulaires/*bloc cartes*/
 	{
 		width: 86%;/*largeur*/
-		height: 80%;/*hauteur*/
 		margin: 2rem 6.6% 2.1rem 6.6%;/*marges ext*/
 	}
 
@@ -228,9 +234,7 @@ body
 	{
 		width: 86%;/*largeur*/
 		flex-direction: column;/*éléments à la suite sur une colonne*/
-		margin-top: 1rem;/*marge ext haute (entre haut bloc cartes et titre)*/
 		margin-left: 6.6%;
-		grid-gap: 0.9rem;/*ajustement visuel*/
 	}
 
 	.grandescartes/*carte vieux port + carte calanques*/

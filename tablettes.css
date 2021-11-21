@@ -36,10 +36,15 @@ body
 
 	.filtres/*filtres sans titre général*/
 	{
-		max-width: 90%;
-		height: 6.5rem;
+		width: 90%;
+		height: auto;
 		margin: 0 4% 0 4%;
 		flex-wrap: wrap;
+	}
+
+	.filtre/*intitulés filtres + contour gris*/
+	{
+		margin-bottom: 0.7rem;
 	}
 
 	/*---------------------------Info------------------------------*/
@@ -67,9 +72,22 @@ body
 		height: 13rem;/*hauteur carte*/
 	}
 
+	.description/*bloc description de l'hébergement*/
+	{
+		height: auto;/*hauteur*/
+		margin-left: 0.4rem;
+		line-height: 0;/*espace entre lignes de texte*/
+	}
+
+	.description h3
+	{
+		margin-top: 0.5rem;
+		line-height: 1.3rem;
+	}
+
 	.note
 	{
-		margin: 0.7rem 0 1rem 0.7rem;
+		margin: 0.7rem 0 1rem 0.4rem;
 	}
 
 	#afficherplus
@@ -110,14 +128,14 @@ body
 		margin-bottom: 0;
 	}
 
-	.sansphoto/*description + note*/
+	.sansphoto/*description + note*/, .description2/*description photos*/
 	{
 		height: 40%;
 	}
 
-	.description2/*description photos*/
+	.description2 h3
 	{
-		height: 40%;
+		margin-top: 0.5rem;
 	}
 
 	.description2 p
@@ -152,8 +170,7 @@ body
 		width: 93%;/*largeur*/
 		flex-direction: column;/*éléments à la suite sur une colonne*/
 		margin-top: 1.3rem;/*marge ext haute (entre haut bloc cartes et titre)*/
-		margin-left: 3.3%;
-		grid-gap: 0.9rem;/*ajustement visuel*/
+		margin-left: 3.5%;
 	}
 
 	.grandescartes/*carte vieux port + carte calanques*/
