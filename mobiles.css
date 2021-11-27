@@ -4,11 +4,6 @@
 
 	/*-------------------------------En-tête----------------------------------*/
 
-body
-{
-	border: solid;
-}
-
 	header
 	{
 		flex-wrap: wrap; /*disposition des éléments flexibles*/
@@ -126,8 +121,6 @@ body
 	{
 		margin-bottom: 0.7rem;
 	}
-
-
 
 	/*---------------------------Info------------------------------*/
 

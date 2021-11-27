@@ -15,15 +15,11 @@
 
 	h3/*Titres de photos*/, p/*texte de base*/
 	{
-		font-size: 1.1rem;/*taille de la police*/
+		font-size: 0.9rem;/*taille de la police*/
 	}
 
 	/*-------------------------------En-tête----------------------------------*/
 
-body
-{
-	border: solid;
-}
 
 	.reservia/*logo (image)*/
 	{

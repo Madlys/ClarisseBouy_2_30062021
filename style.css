@@ -390,7 +390,6 @@ i.fa-search/*bouton rechercher avec icon*/
 	font-size: 0.8rem;/*taille chaque étoile*/
 	display: flex;/*disposition flexbox*/
 	flex-direction: row;/*éléments à la suite sur la même ligne*/
-	justify-items: space-between;/*espace entre chaque éléments*/
 	margin: 0.2rem 0 0.7rem 0.7rem;
 }
 
