@@ -1,0 +1,343 @@
+.explorer-button {
+  color: white;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  width: 17rem;
+  height: 3.7rem;
+  border-radius: 10rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 12px rgb(163, 163, 163);
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.3rem;
+  margin: 1rem 0 4.5rem 0;
+}
+.explorer-button:hover {
+  background: linear-gradient(175deg, rgba(255, 121, 217, 0.7137254902), rgba(146, 86, 220, 0.7254901961));
+  box-shadow: 5px 5px 12px rgb(49, 49, 49);
+}
+@media screen and (min-width: 640px) {
+  .explorer-button {
+    width: 25rem;
+    height: 5.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+.order-button {
+  color: white;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  width: 17rem;
+  height: 3.7rem;
+  border-radius: 10rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 12px rgb(163, 163, 163);
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 1.3rem;
+  margin: 70px auto 120px auto;
+}
+.order-button:hover {
+  background: linear-gradient(175deg, rgba(255, 121, 217, 0.7137254902), rgba(146, 86, 220, 0.7254901961));
+  box-shadow: 5px 5px 12px rgb(49, 49, 49);
+}
+@media screen and (min-width: 640px) {
+  .order-button {
+    width: 25rem;
+    height: 5.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+footer {
+  background-color: #353535;
+  width: 100%;
+  color: white;
+  display: inline-block;
+}
+footer h3 {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin: 2.5rem 0 0 2rem;
+}
+footer ul {
+  list-style-type: none;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+footer ul li {
+  margin-bottom: 1rem;
+}
+footer ul li .fa-utensils {
+  margin-right: 1.6rem;
+  font-size: 1.3rem;
+}
+footer ul li .fa-hands-helping {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+footer ul li a {
+  color: white;
+}
+
+.header-restaurant {
+  display: flex;
+  flex-direction: column;
+}
+.header-restaurant .retour,
+.header-restaurant a {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.769);
+  position: absolute;
+  left: 20px;
+  top: 17px;
+}
+@media screen and (max-width: 480px) {
+  .header-restaurant .retour,
+.header-restaurant a {
+    font-size: 24px;
+    left: 15px;
+  }
+}
+.header-restaurant .logo {
+  width: 16rem;
+  height: 2.7rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+@media screen and (max-width: 480px) {
+  .header-restaurant .logo {
+    width: 13rem;
+    height: 2.1rem;
+  }
+}
+.header-restaurant .photo_restaurant {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: -10%;
+}
+
+.menu {
+  background-color: #f6f6f6;
+  width: 100%;
+  display: inline-block;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.menu .menu-titre {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 20px 25px 0 25px;
+}
+@media screen and (min-width: 640px) {
+  .menu .menu-titre {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 850px) {
+  .menu .menu-titre {
+    justify-content: flex-start;
+  }
+}
+.menu .menu-titre h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: lighter;
+  font-size: 35px;
+}
+.menu .menu-cartes {
+  width: 100%;
+}
+@media screen and (min-width: 850px) {
+  .menu .menu-cartes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+.menu .menu-cartes .menu-cartes_restaurant {
+  margin: 0 20px 50px 20px;
+}
+@media screen and (min-width: 850px) {
+  .menu .menu-cartes .menu-cartes_restaurant {
+    width: 45%;
+    margin: 0 0 50px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .menu .menu-cartes .menu-cartes_restaurant {
+    width: 30%;
+  }
+}
+.menu .menu-cartes .menu-cartes_restaurant h2 {
+  margin-left: 10px;
+  margin-top: 20px;
+  border-bottom: 5px solid #99E2D0;
+  width: 65px;
+  line-height: 40px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 12px rgb(188, 188, 188);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 100px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_description {
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 1px;
+  width: 70%;
+  overflow: hidden;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_description h3,
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_description p {
+  line-height: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_description h3 {
+  margin-bottom: 0;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_description p {
+  margin-top: 0;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_prix {
+  display: flex;
+  min-height: 100px;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_prix p {
+  opacity: 0.8;
+  font-weight: bold;
+  position: relative;
+  top: 35px;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_prix .check-background {
+  background-color: #99E2D0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 30px;
+  visibility: collapse;
+  width: 0;
+}
+.menu .menu-cartes .menu-cartes_restaurant .menu-cartes_restaurant-id .menu-cartes_restaurant-id_prix .check-background .check {
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: 30px;
+  margin: 0 30px 0 30px;
+}
+
+.like {
+  display: flex;
+}
+.like .coeurplein-accueil,
+.like .coeurplein-restaurant {
+  font-size: 37px;
+  background: linear-gradient(0deg, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  left: 36px;
+  z-index: 1;
+  opacity: 0;
+}
+.like .coeurplein-accueil:hover,
+.like .coeurplein-restaurant:hover {
+  opacity: 1;
+  animation: appearance 0.4s ease-in 0s 1 normal forwards;
+}
+@keyframes appearance {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 458px) {
+  .like .coeurplein-restaurant {
+    left: -1px;
+    top: 37px;
+  }
+}
+.like .coeurvide-accueil,
+.like .coeurvide-restaurant {
+  font-size: 35px;
+  position: relative;
+  color: black;
+}
+
+.menu-cartes_restaurant-id:hover {
+  overflow: hidden;
+}
+.menu-cartes_restaurant-id:hover .check-background {
+  animation: check_slide-left 0.6s ease-in-out 0.2s both;
+}
+@keyframes check_slide-left {
+  100% {
+    visibility: visible;
+    width: 95px;
+  }
+}
+.menu-cartes_restaurant-id:hover .check-background .check {
+  animation: rotate-center 0.6s ease-in-out 0.2s both;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.menu-cartes_restaurant-id {
+  visibility: hidden;
+}
+@keyframes fade-in-fwd {
+  0% {
+    transform: translateY(50px);
+    visibility: hidden;
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.menu-cartes_restaurant-id:nth-of-type(1) {
+  animation: fade-in-fwd 0.6s ease-in-out 0.2s forwards;
+}
+.menu-cartes_restaurant-id:nth-of-type(2) {
+  animation: fade-in-fwd 0.6s ease-in-out 0.5s forwards;
+}
+.menu-cartes_restaurant-id:nth-of-type(3) {
+  animation: fade-in-fwd 0.6s ease-in-out 0.8s forwards;
+}
+.menu-cartes_restaurant-id:nth-of-type(4) {
+  animation: fade-in-fwd 0.6s ease-in-out 1.2s forwards;
+}
+
+/*# sourceMappingURL=restaurants.css.map */
