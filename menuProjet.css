@@ -2,21 +2,66 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: 1px solid black;
     width: 50%;
     height: 400px;
-    margin: 25vh 25%;
+    margin: 15% 25%;
     cursor: default;
 }
 
+body * {
+    margin: 1rem;
+    text-align: center;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 a {
+    margin: 1.8rem 1rem 0 1rem;
     text-decoration: none;
     color: black;
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 1.8rem;
+    margin-top: 1.8rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    a{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    body {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    a{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        height: 450px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    a{
+        font-size: .8rem;
+    }
 }
